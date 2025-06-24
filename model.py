@@ -4,7 +4,6 @@ import seaborn as sns
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
 from sklearn.model_selection import GridSearchCV
-from scipy.stats import randint
 import joblib
 
 scaler = joblib.load("scaler.pkl")  
